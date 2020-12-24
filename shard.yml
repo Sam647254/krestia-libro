@@ -1,0 +1,13 @@
+name: libro-de-krestia
+version: 0.1.0
+
+authors:
+  - Sam Wang <samofcorinth@gmx.ca>
+
+targets:
+  libro-de-krestia:
+    main: src/libro-de-krestia.cr
+
+crystal: 0.35.1
+
+license: MIT
