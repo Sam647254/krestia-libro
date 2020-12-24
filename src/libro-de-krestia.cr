@@ -1,6 +1,3 @@
-# TODO: Write documentation for `Libro::De::Krestia`
-module KrestiaLibro
-  VERSION = "0.1.0"
+require "./topics/philosophy"
 
-  # TODO: Put your code here
-end
+KrestiaLibro::Topics::PHILOSOPHY.save(STDOUT)
